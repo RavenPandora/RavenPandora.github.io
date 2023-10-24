@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplicación de Publicaciones</title>
+</head>
+<body>
+    <h1>Registro de Usuarios</h1>
+    <input type="text" id="username" placeholder="Nombre de usuario">
+    <button onclick="registerUser()">Registrarse</button>
+    
+    <h2>Crear Publicación</h2>
+    <input type="text" id="postContent" placeholder="Escribe una publicación">
+    <button onclick="createPost()">Publicar</button>
+    
+    <h2>Comentarios</h2>
+    <input type="text" id="commentContent" placeholder="Escribe un comentario">
+    <button onclick="addComment()">Comentar</button>
+    
+    <h2>Publicaciones</h2>
+    <ul id="postsList"></ul>
+    
+    <h2>Usuarios Registrados</h2>
+    <ul id="userList"></ul>
+    
+    <script src="app.js"></script>
+</body>
+</html>
